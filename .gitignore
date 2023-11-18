@@ -1,0 +1,22 @@
+# IDE
+*.iml
+/local.properties
+.idea
+/.idea/caches/
+/.idea/workspace.xml
+/.idea/libraries
+
+# System
+.DS_Store
+.gradle
+/captures
+*.hprof
+
+# Build
+/shared/build
+/build
+
+# Lint
+/shared/lint/
+/androidApp/lint/
+/lint/
