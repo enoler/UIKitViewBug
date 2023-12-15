@@ -13,9 +13,7 @@ struct MainContentView: View {
     @EnvironmentObject var presentedView: MainPresentedView
     
     var body: some View {
-        switch presentedView.currentView {
-            case .help: HelpView()
-        }
+        Text("Hello from MainView.swift")
     }
 }
 
